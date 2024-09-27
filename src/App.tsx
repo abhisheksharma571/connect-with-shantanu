@@ -1,14 +1,21 @@
-import { BorderBeam } from "./components/magicui/border-beam.tsx";
+
 import './App.css'
+import Footer from "./components/footer/Footer.tsx";
+import Navbar from "./components/navbar/Navbar.tsx";
+import Faq from "./components/faq/Faq.tsx";
+import { Testimonial } from './components/testimonials/Testimonial.tsx';
+import VideoSection from "./components/videoSection/VideoSection.tsx";
 
 function App() {
 
   return (
-    <div className="relative h-[200px] w-[200px] rounded-xl bg-slate-600">
-      <p>Hello</p>
-    <BorderBeam />
-    <p>World</p>
-  </div>
+    <>
+    <Navbar />
+    <VideoSection />
+    <Testimonial />
+    <Faq />
+    <Footer />
+    </>
   )
 }
 
