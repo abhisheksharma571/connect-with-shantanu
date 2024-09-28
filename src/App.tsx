@@ -7,6 +7,8 @@ import Faq from "./components/faq/Faq.tsx";
 import VideoSection from "./components/videoSection/VideoSection.tsx";
 import Callsection from './components/callsection/Callsection.tsx';
 import Team from './components/team/Team.tsx';
+import Comparison from './components/Comparison.tsx';
+// import StickyButton from './components/StickyButton.tsx';
 
 function App() {
 
@@ -15,10 +17,12 @@ function App() {
     <Navbar />
     <Callsection />
     <VideoSection />
+    <Comparison />
     <Team/>
     {/* <Testimonial /> */}
     <Faq />
     <Footer />
+    {/* <StickyButton /> */}
     </>
   )
 }
