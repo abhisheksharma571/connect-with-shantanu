@@ -46,20 +46,20 @@ function Faq() {
   ];
 
   return (
-    <section className="text-black bg-background py-10 px-4 md:px-8">
-      <h1 className="text-4xl md:text-6xl font-bold text-center underline mb-10 text-orange">FAQ's</h1>
+    <section className="text-black bg-background md:px-8 pb-5">
+      <h1 className="text-2xl md:text-4xl underline font-bold text-center mb-5 text-[#19a99d]">FAQ's</h1>
 
-      <div className="max-w-3xl mx-auto space-y-4">
+      <div className="max-w-3xl mx-auto space-y-1">
         {questions.map((item, index) => (
           <div key={index} className="border-b border-orange">
             <button
-              className="w-full bg-background flex justify-between items-center py-4 px-3 text-lg md:text-xl font-semibold focus:outline-none"
+              className="w-full bg-background flex justify-between items-center py-4 px-3 text-lg md:text-xl text-start font-semibold focus:outline-none"
               onClick={() => toggleFAQ(index)}
             >
               <span
                 className={`${
-                  openIndex === index ? 'text-orange-500' : 'text-black'
-                } hover:text-orange-500`}
+                  openIndex === index ? 'text-[#19a99d]' : 'text-black'
+                } hover:text-[#19a99d]`}
               >
                 {item.question}
               </span>
