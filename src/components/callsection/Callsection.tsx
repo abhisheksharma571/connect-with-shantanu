@@ -32,7 +32,7 @@ const Callsection = () => {
                             <h1 className='font-bold text-lg lg:text-2xl w-full lg:w-[400px] pt-2'>
                                 What to expect in 30 Mins Call
                             </h1>
-                            <div className='h-[3px] w-full lg:w-[360px] mt-3 ml-auto mr-auto bg-green-400'></div>
+                            <div className='h-[2px] w-full lg:w-[360px] mt-3 ml-auto mr-auto bg-white'></div>
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ const Callsection = () => {
                         ].map((text, idx) => (
                             <div key={idx} className='flex pl-2 pt-3 gap-[8px]'>
                                 <div>
-                                    <img className='h-[22px] mt-3 md:mt-0 md:h-[30px] w-auto object-contain' src="./images/checkmark.png" alt="check mark" />
+                                    <img className='h-[22px] mt-3 md:mt-0 md:h-[30px] w-auto object-contain pl-2' src="./images/checkmark.png" alt="check mark" />
                                 </div>
                                 <div>
                                     <h1 className='pt-[2px] text-start font-medium'>{text}</h1>
@@ -58,13 +58,13 @@ const Callsection = () => {
                     <div className="h-[60px] w-auto mt-6 flex justify-center items-center">
                         <div className="relative inline-flex group">
                             <div
-                                className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                                className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#ffffff] via-[#ffffff] to-[#ffffff] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                             </div>
                             <a
                                 href="https://calendly.com/infohub-gx2h/30min"
                                 target='blank'
                                 title="Get quote now"
-                                className="relative inline-flex items-center justify-center px-4 py-3 md:px-8 md:py-4 text-base md:text-lg font-bold text-black transition-all duration-200 bg-white font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                                className="relative inline-flex items-center justify-center px-4 py-3 md:px-8 md:py-4 text-base md:text-lg font-bold text-[#19a99d] transition-all duration-200 bg-white font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                                 role="button">
                                 BOOK STRATEGY CALL
                             </a>
