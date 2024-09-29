@@ -7,7 +7,7 @@ function Footer() {
     <div className='h-[200px] w-full bg-[#1ea297] flex justify-center items-center gap-5'>
       <div className='flex flex-col justify-center items-center'>
         <WordPullUp
-          className="text-2xl font-bold tracking-[-0.02em] text-[#ffffff] md:text-4xl md:leading-[5rem]"
+          className="text-2xl font-bold tracking-[-0.02em] font-philosopher text-[#ffffff] md:text-4xl md:leading-[5rem]"
           words="Connect with Shantanu"
         />
         <div className='flex gap-6 sm:mt-0 mt-2'>

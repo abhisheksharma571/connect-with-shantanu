@@ -47,7 +47,7 @@ function Faq() {
 
   return (
     <section className="text-black bg-background md:px-8 pb-5">
-      <h1 className="text-2xl md:text-4xl underline font-bold text-center mb-5 text-[#19a99d]">FAQ's</h1>
+      <h1 className="text-2xl md:text-4xl underline font-bold font-philosopher text-center mb-5 text-[#19a99d]">FAQ's</h1>
 
       <div className="max-w-3xl mx-auto space-y-1">
         {questions.map((item, index) => (
@@ -59,7 +59,7 @@ function Faq() {
               <span
                 className={`${
                   openIndex === index ? 'text-[#19a99d]' : 'text-black'
-                } hover:text-[#19a99d]`}
+                } hover:text-[#19a99d]`} 
               >
                 {item.question}
               </span>

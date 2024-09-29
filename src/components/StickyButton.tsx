@@ -1,11 +1,9 @@
-
-
 const StickyButton = () => {
     return (
         <div className="fixed bottom-4 right-4 z-50">
             <div className="relative inline-flex group">
                 {/* Gradient background with hover effect */}
-                <div className="absolute transition-all duration-1000 opacity-80 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-full blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
+                <div className="absolute transition-all duration-1000 opacity-80 -inset-px bg-gradient-to-r from-[#ffffff] via-[#ffffff] to-[#ffffff] rounded-full blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
                 {/* Button content */}
                 <a
                     href="https://calendly.com/infohub-gx2h/30min"
