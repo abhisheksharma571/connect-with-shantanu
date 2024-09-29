@@ -1,13 +1,13 @@
 import HeroVideoDialog from "../../components/magicui/hero-video-dialog";
-import { BorderBeam } from '../magicui/border-beam'
+import { BorderBeam } from '../magicui/border-beam';
 
 const Callsection = () => {
     return (
         <div className=' ' >
-           <div  className='justify-center flex ' >
-           <div >
-                <h1 className='text-4xl font-bold  text-center text-[#19a99d] py-7' >Unlock Your Past, Reclaim Your Strength and Embrace Emotional Freedom</h1>
-            </div>
+           <div className='justify-center flex ' >
+               <div >
+                    <h1 className='text-4xl font-bold  text-center text-[#19a99d] py-7' >Unlock Your Past, Reclaim Your Strength and Embrace Emotional Freedom</h1>
+                </div>
            </div>
             <div className='flex flex-col lg:flex-row justify-evenly w-full py-6 px-3 sm:px-0  bg-[#eefffe] '>
                 {/* Video Section */}
@@ -22,7 +22,7 @@ const Callsection = () => {
                 </div>
 
                 {/* Information Section */}
-                <div className='h-[440px] lg:h-[430px] w-full lg:w-[550px] pt-6 lg:pt-3 rounded-lg relative text-white mt-4 bg-[#19a99d] md:m-3'>
+                <div className='h-[460px] lg:h-[460px] w-full lg:w-[550px] pt-6 lg:pt-3 rounded-lg relative text-white mt-4 bg-[#19a99d] md:m-3'>
                     <BorderBeam />
                     <div className='justify-center flex'>
                         <img className='h-[35px] lg:h-[45px]' src="./images/live.png" alt="live image" />
@@ -70,10 +70,26 @@ const Callsection = () => {
                             </a>
                         </div>
                     </div>
+
+                    {/* PDF Download Button */}
+                    <div className="h-[ 60px]  w-auto mt-4 flex justify-center items-center">
+                        <a 
+                            href="./pdf/case-study.pdf"
+                            download
+                            className="relative inline-flex h-12 w-64 items-center justify-between px-4 py-3 md:px-8 md:py-4 text-base md:text-lg font-bold text-white transition-all duration-200 bg-[#ff675e] rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                        >
+                            {/* Text on the Left */}
+                            <span className="mr-2 text-[12px] ">Download Case Study PDF</span>
+                            {/* Download Icon on the Right */}
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Callsection;
