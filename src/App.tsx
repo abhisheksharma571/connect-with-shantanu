@@ -9,6 +9,7 @@ import Callsection from './components/callsection/Callsection.tsx';
 import Team from './components/team/Team.tsx';
 import Comparison from './components/Comparison.tsx';
 // import StickyButton from './components/StickyButton.tsx';
+import CaseStudy from './components/CaseStudy.tsx';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <Callsection />
     <VideoSection />
     <Comparison />
+    <CaseStudy/>
     <Team/>
     {/* <Testimonial /> */}
     <Faq />

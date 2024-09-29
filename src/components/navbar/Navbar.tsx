@@ -10,7 +10,7 @@ function Navbar() {
             <img src="./logo/shantanu-logo-removebg.png" alt="" />
         </div>
         <div className='flex justify-center'>
-            <p className='text-[#EEE5E9] text-sm md:text-2xl font-semibold'>The Most Profitable FUNNEL Strategy For Online Coaches & Mental Health Consultants</p>
+            <p className='text-[#EEE5E9] font-philosopher text-sm md:text-2xl font-semibold'>The Most Profitable FUNNEL Strategy For Online Coaches & Mental Health Consultants</p>
         </div>
       </div>
     </div> 

@@ -11,6 +11,11 @@ export default {
         marquee: "marquee var(--duration) linear infinite",
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
       },
+      fontFamily: {
+        'roboto-slab': ['"Roboto Slab"', 'serif'], // Add this line to include Roboto Slab
+        'philosopher': ['"Philosopher"', 'sans-serif']
+
+      },
       keyframes: {
         "border-beam": {
           "100%": {
